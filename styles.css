@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.botao { border:30px solid blue;}
+
+body {
+  margin: 100px;
+  font-family: arial;
+  color: white;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1 medium;
+  gap: 0.5rem;
+  border-bottom: solid 10000 px white;
+  background-color: black;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 50px purple;
+  text-align: center;
+  text-decoration: white;
+  color: purple;
+}
+
+nav a[aria-current='page'] {
+  color: white;
+  background-color: white;
+}
+
+main {
+  padding: 3rem;
+}
+
+h1 {
+  font-weight: 900 black;
+  font-size: 3 medium;
+}
